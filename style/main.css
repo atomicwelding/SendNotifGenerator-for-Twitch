@@ -1,0 +1,116 @@
+body {
+    margin: 0;
+    background-color: #262626;
+
+    overflow: hidden;
+}
+
+
+/* --- LOGO --- */
+
+@font-face {
+    font-family: Dimitri;
+    src: url('../resources/dimitri.TTF');
+}
+
+#menubar {
+    margin: 0;
+
+    display: table;
+
+    width: 100%;
+    height: 100px;
+
+    background-color: #191919;
+    border-radius: 0 0 2px 2px;
+
+    border-bottom: 1px solid white;
+}
+
+#menubar #logo {
+    text-align: center;
+    display: table-cell;
+    vertical-align: middle;
+
+    font-family: 'Dimitri';
+    font-size: 10vh;
+
+    color: white;
+}
+
+/* --- GENERATOR --- */
+
+#generator {
+    margin: 0 auto;
+
+    width: 90vh;
+    height: 80vh;
+}
+
+#generator .field {
+    margin: 7vh auto;
+    display: table;
+
+    width: 40vh;
+    height: 5vh;
+}
+
+#generator .field .fcontent {
+    text-align: center;
+    display: table-cell;
+    vertical-align: middle;
+}
+
+#generator .field .fcontent input {
+    padding-top: 0px;
+    padding-left: 4px;
+    
+    width: 98%;
+    line-height: 3em;
+
+    font-size: 0.9em;
+
+    background-color: #f2f2f2;
+    border: none;
+}
+
+#generator .field .fcontent button {
+    width: 49%;
+    height: 50px;
+
+    font-size: 20px;
+    font-family: Dimitri;
+    color: white;
+
+    border: none;
+    background-color: #191919;
+    border-radius: 3px;
+}
+
+#generator .field .fcontent button:active {
+    box-shadow: 0px 0px 20px 5px #fff; 
+}
+
+/* --- SIGNATURE --- */
+#signature {
+    position: absolute;
+    display: inline-block;
+    
+    bottom: 0;
+    text-align: right;
+    margin-right: 50px;
+
+    width: 100%;
+    height: 20px;
+
+    background-color: #191919;
+    border-radius: 0 0 2px 2px;
+    border-top: 0.5px solid white;
+
+    font-family: Arial;
+    color: white;
+}
+
+a {
+    color: white;
+}
