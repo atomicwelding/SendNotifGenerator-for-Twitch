@@ -1,0 +1,10 @@
+How API works ?
+    Front-End: 
+        No listening, the whole types of request will be sent through the response.
+        Sending 1 event:
+            Generate
+        
+    Back-End:
+        listening get, retrieve all 
+        Can response -> Error / Generated
+
