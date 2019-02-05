@@ -1,0 +1,5 @@
+How API works ?
+    Front-End: 
+        Listening for 2 events:
+            Generated   -> receive the extension file
+            Error       -> one entry is wrong
