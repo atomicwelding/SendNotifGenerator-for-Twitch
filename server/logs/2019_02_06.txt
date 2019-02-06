@@ -6,3 +6,7 @@ WITH params = {"login":"chien","popup":"abcd","notif":"abcd"}
 FROM ::1
 WITH params = {"login":"blaez","popup":"abcdduezud","notif":"abcd"}
 
+[GET] / 
+FROM ::1
+WITH params = {"login":"blaez","popup":"abcdduezud","notif":"abcd"}
+
