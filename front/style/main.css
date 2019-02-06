@@ -69,9 +69,14 @@ body {
     line-height: 3em;
 
     font-size: 0.9em;
+    background-color: white; 
+    border:none;
+}
 
-    background-color: #f2f2f2;
-    border: none;
+#generator .field .fcontent input:focus {
+    outline: none;
+    border: 0.5px solid #409af9;
+    box-shadow: 0 0 5px #409af9;
 }
 
 #generator .field .fcontent button {
