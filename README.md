@@ -18,4 +18,4 @@ To see what it should look like, you can see my first twitch extension [here](ht
 ## Screenshots
 
 #### Website
-![screen of the website]('screenshots/website.png')
+![screen of the website]('./screenshots/website.png')
