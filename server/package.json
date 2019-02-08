@@ -1,0 +1,15 @@
+{
+    "name": "sngenerator",
+    "version": "1.0.0",
+    "description": "Generate your own twitch extension that averts your viewers when you are online ! ",
+    "repository": "https://github.com/atomicwelding/SendNotifGenerator-for-Twitch.git",
+    "homepage": "https://atomicwelding.github.io/SendNotifGenerator-for-Twitch/front/index.html",
+    "author": "Weld <contact@weldev.tech>",
+    "dependencies": {
+        "xmlhttprequest": ">=1.8.0"
+    },
+    "main": "server.js",
+    "engines": {
+        "node": ">= 10.13.0"
+    }
+}

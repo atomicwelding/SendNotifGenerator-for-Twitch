@@ -6,7 +6,7 @@
 let Streamer = require('./class/Streamer').Streamer, NotMachingRequirements = require('./class/Streamer').NotMachingRequirements; 
 let urlparser = require('url'); 
 let fs = require('fs');
-let date = require('date-and-time');
+
 
 const _TOKEN_: string = 'xh6dvhkx4t45vcz7mxj9asbl7n2jvx';
 const _PORT_: number = 8550;
